@@ -81,11 +81,11 @@ END;
 
 --testando 
 
-INSERT INTO EMPREGADOS VALUES (5,'Lennon',3499);
+INSERT INTO EMPREGADOS VALUES (5,'Lenny',3499);
 
 update empregados set salario=salario*1.05 where codigo='1';
 
-delete from EMPREGADOS where codigo='3'
+delete from EMPREGADOS where codigo='3';
 
 select * from log_salario;
 
